@@ -8,7 +8,7 @@ module Types
     # They will be entry points for queries on your schema.
 
     field :books, resolver: Queries::Books
-    field :book, resolver: Queries::Books
+    field :book, resolver: Queries::Book
 
   end
 end
